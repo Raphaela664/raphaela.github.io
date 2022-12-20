@@ -1,0 +1,180 @@
+body{
+    
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+    min-width: fit-content;
+
+}
+.container{
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+
+header{
+    width:100%;
+    min-width: fit-content;
+    max-width: 1000px;
+    min-height:200px;
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+
+    
+    
+
+}
+a, a:hover, a:visited, a:active {
+    color: grey;
+    text-decoration: none;
+   }
+
+header .right_side
+{
+    
+    background:#fff;
+    padding:40px;
+    
+    
+}
+
+.profile {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 15px;
+    background-color: white;
+    width: 334px;
+    
+}
+.profile .profile_Img {
+    
+    width:150px;
+    height:150px;
+    border-bottom: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+.profile .profile_Img img {
+
+top: 10px;
+left: 0;
+width:100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.contact{
+    color:grey;
+    font:1.2em;
+    margin: 3px;
+    padding: 0;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.4em;
+    margin-bottom: 0;
+}
+
+.container .right_side
+{
+    
+    background:#fff;
+    padding-top:0px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left:40px;
+   
+}
+.conatiner .left_side
+{
+   
+    background: #fff;
+    padding:40px;
+    margin-top: 0;
+    
+}
+
+.left_side p {
+    color:grey;
+    font:1.2em;
+    margin: 3px;
+    padding: 0;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.4em;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.career{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Tech{
+    margin-bottom: 30px;
+}
+.Other{
+    margin-bottom: 30px;
+}
+
+
+.Languages{
+    margin-bottom: 30px;
+}
+.Intro h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.Intro p{
+    margin-top: 0;
+    font-size: 25px;
+    margin-bottom:50px;
+}
+
+
+.grey_b{
+    color:grey;
+    font-size: 15px;
+}
+
+.grey_e{
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.Exp_1{
+    font:1.2em;
+    margin: 3px;
+    padding: 0;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.4em;
+}
+.right_side{
+    font-family: 'Inter';
+}
+
+
